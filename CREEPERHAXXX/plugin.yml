@@ -1,0 +1,5 @@
+name: CREEPERHAXXX
+main: plugin.CREEPERHAXXX
+version: 1.0.0
+commands:
+   getcreeperhax: 

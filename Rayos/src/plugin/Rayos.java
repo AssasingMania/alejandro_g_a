@@ -67,30 +67,9 @@ public class Rayos extends JavaPlugin implements Listener{
 
 						Location loc = p.getTargetBlock(null, 255).getLocation();
 						
-						
-						
-						
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						p.getWorld().strikeLightning(loc);
-						
-						
-
+						for(int j=0;j<50;j++){
+							p.getWorld().strikeLightning(loc);
+						}
 					}
 
 				}
