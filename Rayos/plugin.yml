@@ -1,0 +1,5 @@
+name : Rayos
+main : plugin.Rayos
+version : 1.0.0
+commands:
+   getzeusstick:

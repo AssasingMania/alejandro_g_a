@@ -1,0 +1,4 @@
+name: SwordTray
+main: plugin.SwordTray
+version: 1.0.0
+commands:

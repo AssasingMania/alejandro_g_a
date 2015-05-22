@@ -1,0 +1,8 @@
+name: CASTILLO
+main: plugin.CastilloH
+version: 1.0.0
+description: 
+commands:
+   getcastlecreator:
+      description: create castle
+      usage: 

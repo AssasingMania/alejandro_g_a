@@ -1,0 +1,5 @@
+name: Duplicar
+main: plugin.DuplicarMano
+version: 1.0.0
+commands:
+   DuplicarMano:

@@ -1,0 +1,5 @@
+name : FireBall
+main : plugin.FireBall
+version : 1.0.0
+commands:
+   getfirestick:

@@ -1,0 +1,5 @@
+name: fly
+main: plugin.Fly
+version: 1.0.0
+commands:
+   getflyshoes:

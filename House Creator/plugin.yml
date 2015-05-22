@@ -1,0 +1,5 @@
+name: House
+main: plugin.House
+version: 1.0.0
+commands:
+   gethouseconstructor:

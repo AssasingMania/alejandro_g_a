@@ -1,0 +1,5 @@
+name: Gorros
+main: plugin.Gorros
+version: 1.0.0
+commands: 
+   gorro:
