@@ -35,8 +35,7 @@ public class Rayos extends JavaPlugin implements Listener{
 
 		if(command.getName().equalsIgnoreCase("getzeusstick")){
 			Player p = (Player)sender;
-			ItemStack lightningstick = new ItemStack(Material.STICK);
-
+			ItemStack lightningstick = new ItemStack(Material.STICK)
 			ItemMeta i = lightningstick.getItemMeta();
 			i.addEnchant(Enchantment.DAMAGE_ALL, 6, true);
 			i.setDisplayName(ChatColor.BLUE+""+ ChatColor.BOLD+"Zeus Stick");

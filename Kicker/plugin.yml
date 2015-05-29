@@ -1,0 +1,8 @@
+name: Teleport
+main: plugin.Flecha
+version: 1.0.0
+description: 
+commands:
+   gettelporter:
+      description:
+      usage: 

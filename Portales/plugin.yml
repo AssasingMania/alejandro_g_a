@@ -1,0 +1,6 @@
+name: Portales
+main: plugin.Portales
+version: 1.0.0
+commands:
+   destino:
+   casa:
