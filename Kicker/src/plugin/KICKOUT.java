@@ -19,7 +19,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Flecha extends JavaPlugin implements Listener{
+public class KICKOUT extends JavaPlugin implements Listener{
 	@Override
 	public void onEnable() {
 		Bukkit.getServer().getPluginManager().registerEvents(this, this);
@@ -32,8 +32,8 @@ public class Flecha extends JavaPlugin implements Listener{
 	public void onPlayerInteract(PlayerJoinEvent e){
 		//QUIERO Q LA FLECHA TE TELETRANSPORTE!
 		Player p = e.getPlayer();
-		if(p.getName().contains("google") || p.getName().contains("fhmy2013") || p.getName().contains("Luckyprogamer") || p.getName().equals("")){
-			p.kickPlayer("Not allowed MOTHER FUCKERSSSSSSSSS");
+		if(p.getName().contains("google") || p.getName().contains("Luckyprogamer") || p.getName().equals("")){
+			p.kickPlayer("Not allowed MOTHER FUCKERRRRRRRRRR");
 		}
 	}
 	
